@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Sports Physical Form</h2>
+    <form action="action.html" method="post">
+      <fieldset>
+        <legend><h4>Athlete Information</h4></legend>
+        <ul>
+          <li>
+            <label for="Name">Name:</label>
+            <input
+              type="text"
+              name="user name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </li>
+          <li>
+            <label for="school">School/Team:</label>
+            <input type="text" name="school" id="school" />
+          </li>
+          <li>
+            <label for="sport">Sport:</label>
+            <input type="text" name="sport" id="sport" />
+          </li>
+          <li>
+            <label for="parent">Parent//Gurdian/Name:</label>
+            <input type="text" name="parent" id="parent" />
+          </li>
+          <li>
+            <label for="conatact">Contact Number:</label>
+            <input type="number" name="conatact" id="conatact" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend><h4>Medical Athlete Information</h4></legend>
+        <ul>
+          <li>
+            <label for="history_concussions">History of concussions:</label>
+            <input
+              type="radio"
+              name="history_of_concussions"
+              id="history_of_concussions_yes"
+            />
+            <label for="history_concussions_yes"><strong>Yes</strong></label>
+            <input
+              type="radio"
+              name="history_of_concussions"
+              id="history_of_concussions_no"
+            />
+            <label for="history_concussions_no"><strong>No</strong></label>
+          </li>
+          <li>
+            <label for="school">Previous surgeries:</label>
+            <input
+              type="text"
+              name="school"
+              id="school"
+              placeholder="Enter Surgery"
+            />
+          </li>
+          <li>
+            <label for="bone_fractures">Any bone fractures?</label>
+            <input type="radio" name="bone_fractures" id="bone_fractures_yes" />
+            <label for="bone_fractures_yes"><strong>Yes</strong></label>
+            <input type="radio" name="bone_fractures" id="bone_fractures_no" />
+            <label for="bone_fractures_no"><strong>No</strong></label>
+          </li>
+          <li>
+            <label for="astama_or_breathing_problems"
+              >Asthama or breathing problems:</label
+            >
+            <input
+              type="radio"
+              name="astama_or_breathing_problems"
+              id="astama_or_breathing_problems"
+            />
+            <label for="astama_or_breathing_problems_yes"
+              ><strong>Yes</strong></label
+            >
+            <input
+              type="radio"
+              name="astama_or_breathing_problems"
+              id="astama_or_breathing_problems_no"
+            />
+            <label for="astama_or_breathing_problems_no"
+              ><strong>No</strong></label
+            >
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Select your department</legend>
+        <select name="department" id="department">
+          <option value="null">Select your deparment</option>
+          <option value="n">CSE</option>
+          <option value="">CSE/AIML</option>
+          <option value="null">IT</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Select your Gender</legend>
+        <label>
+          <input type="checkbox" name="Male" value="Male" />
+          <label for="Male"><strong>Male</strong></label>
+          <input type="checkbox" name="Female" value="Female" />
+          <label for="Female"><strong>Female</strong></label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend><h4>Doctor's Recommendmation Athlete Information</h4></legend>
+      </fieldset>
+
+      <fieldset>
+        <legend>Text Area</legend>
+
+        <label for="address">Address:</label><br />
+        <textarea
+          id="address"
+          name="address"
+          rows="4"
+          cols="40"
+          placeholder="Enter your address"
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Mail Details</legend>
+        <label for="email">Email:</label>
+        <input type="text" name="email" placeholder="Enter your mail" />
+        <br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Date & Time</legend>
+        <label for="date"><strong>Date: </strong></label><input type="date" />
+
+        <br /><label for="time"><strong>Time: </strong></label
+        ><input type="time" />
+      </fieldset>
+      <fieldset>
+        <legend>Documents/Images</legend>
+        <label for="profile:image">Profile</label>
+        <input
+          type="file"
+          name="profile_image"
+          .accept=".pdf,.docx"
+          id="profile_image"
+        />
+        <br />
+        <label for="resume">Resume</label>
+        <input type="file" name="profile_image" .accept=".pdf,.docx" />
+        <br />
+        <label for="wordfile">WordFile</label>
+        <input type="file" name="profile_image" .accept=".pdf,.docx" />
+        <br />
+        <label for="Excel">Excel</label>
+        <input type="file" name="excel" .accept=".xlxs" />
+      </fieldset>
+      <input type="submit" value="Form Submit" />
+    </form>
+  </body>
+</html>
