@@ -1,62 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Intro to CSS</title>
-    <style> 
-    ul li {
+    <style>
+      ul li {
         color: black;
-    }
-    .formatting{
+      }
+      .formatting {
         background-color: bisque;
         font-family: cursive;
         color: rgb(39, 235, 235);
-    }
-    #heading {
+      }
+      #heading {
         color: blueviolet;
-    }
-    input[placeholder]{
+      }
+      input[placeholder] {
         background-color: aqua;
-    }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h3 id="heading">Types of CSS :</h3>
     <p class="formatting">
-        CSS is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+      CSS is a style sheet language used for describing the presentation of a
+      document written in HTML or XML. CSS describes how elements should be
+      rendered on screen, on paper, in speech, or on other media.
     </p>
     <ul class="formatting">
-        <li>Inline CSS</li>
-        <li style="background-color: rgb(222, 214, 214);">Internal CSS</li>
-        <li>External CSS</li>
+      <li>Inline CSS</li>
+      <li style="background-color: rgb(222, 214, 214)">Internal CSS</li>
+      <li>External CSS</li>
     </ul>
     <a href="https://www.google.com" target="_blank">Click here</a>
 
-    <p style="color: blue;">
-        CSS is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+    <p style="color: blue">
+      CSS is a style sheet language used for describing the presentation of a
+      document written in HTML or XML. CSS describes how elements should be
+      rendered on screen, on paper, in speech, or on other media.
     </p>
-    <p style="color: red;">
-        CSS is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+    <p style="color: red">
+      CSS is a style sheet language used for describing the presentation of a
+      document written in HTML or XML. CSS describes how elements should be
+      rendered on screen, on paper, in speech, or on other media.
     </p>
     <form action="">
-<label for="name">Username: </label>
-<input
-type="text"
-id="name"
-[name="username"
-placeholder="Enter your name"
-/>
-<br />
-<label for="password">Password: </label>
-<input
-type="password"
-id="password"
-name="password"
-placeholder="Enter password"
-placeholder="Password"/> <br>
-<input type="button" value="Submit" />
-</form>
-</body>
+      <label for="name">Username: </label>
+      <input
+        type="text"
+        id="name"
+        [name="username"
+        placeholder="Enter your name"
+        style="background-color: red"
+      />
+      <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        style="background-color: blue"
+        placeholder="Password"
+      />
+      <br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
 </html>
