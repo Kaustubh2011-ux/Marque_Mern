@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#24c3e7;
+}
+
+
+.testimonial-section{
+    width:100%;
+    padding:60px 8%;
+    text-align:center;
+}
+
+.testimonial-section h1{
+    color:#1e3e8f;
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:50px;
+    font-size:17px;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.testimonial-card{
+
+    width:340px;
+
+    background:#fff;
+
+    padding:35px 30px;
+
+    border-radius:12px;
+
+    position:relative;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.quote-box{
+
+    width:60px;
+    height:60px;
+
+    background:#2f75ff;
+
+    position:absolute;
+
+    top:0;
+    right:0;
+
+    border-radius:0 12px 0 50px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-size:26px;
+}
+
+.testimonial-card h3{
+
+    color:#24438f;
+    margin-top:20px;
+    font-size:24px;
+}
+
+.testimonial-card h5{
+
+    color:#ff6a6a;
+    margin:8px 0 15px;
+    font-size:15px;
+    font-weight:500;
+}
+
+.stars{
+
+    color:#ffc107;
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.testimonial-card p{
+
+    color:#555;
+    line-height:1.8;
+    text-align:left;
+    font-size:15px;
+}
+
+
+
+.whatsapp-btn{
+
+    position:fixed;
+
+    left:25px;
+
+    bottom:25px;
+
+    width:60px;
+    height:60px;
+
+    background:#25D366;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:35px;
+
+    text-decoration:none;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.3);
+
+    z-index:999;
+
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+
+    transform:scale(1.1);
+}
+
+
+.chatbot-btn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:60px;
+    height:60px;
+
+    background:#2f66ff;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:28px;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.3);
+
+    z-index:999;
+
+    transition:.3s;
+}
+
+.chatbot-btn:hover{
+
+    background:#1f5bdd;
+
+    transform:scale(1.1);
+}
+
+
+.notification{
+
+    position:absolute;
+
+    top:2px;
+    right:0;
+
+    width:20px;
+    height:20px;
+
+    background:red;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:11px;
+
+    font-weight:bold;
+
+    border:2px solid white;
+}
+
+
+
+@media(max-width:768px){
+
+    .testimonial-section h1{
+
+        font-size:35px;
+    }
+
+    .testimonial-card{
+
+        width:100%;
+        max-width:380px;
+    }
+
+    .whatsapp-btn,
+    .chatbot-btn{
+
+        width:55px;
+        height:55px;
+    }
+
+}
